@@ -336,36 +336,10 @@ export default {
   z-index: 1;
   transform: translateY(-50%);
   overflow: hidden;
-  svg {
+  img {
     margin: 12px 0;
     transform: translateY(-62px);
     animation: transition 2s cubic-bezier(0.15, 1, 0.75, 1) 1s infinite;
   }
-}
-
-div.col-sm-9 div {
-  height: 250px;
-  font-size: 28px;
-}
-
-#section1 {
-  color: #fff;
-  background-color: #1e88e5;
-}
-#section2 {
-  color: #fff;
-  background-color: #673ab7;
-}
-#section3 {
-  color: #fff;
-  background-color: #ff9800;
-}
-#section41 {
-  color: #fff;
-  background-color: #00bcd4;
-}
-#section42 {
-  color: #fff;
-  background-color: #009688;
 }
 </style>

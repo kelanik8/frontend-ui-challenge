@@ -18,23 +18,15 @@
           what matters most.
         </p>
         <button class="hero-arrow-button">
-          <svg width="24" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M12.456 34.144c2.112-3.696 7.008-8.064 10.992-9.552v-3.408c-4.128 1.632-8.256 5.328-10.272 8.16V.016h-2.88v29.328C8.328 26.512 4.248 22.816.12 21.232v3.36c3.984 1.44 8.784 5.856 10.896 9.552h1.44z"
-              fill="#FFE7AA"
-            ></path></svg
-          ><svg width="24" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M12.456 34.144c2.112-3.696 7.008-8.064 10.992-9.552v-3.408c-4.128 1.632-8.256 5.328-10.272 8.16V.016h-2.88v29.328C8.328 26.512 4.248 22.816.12 21.232v3.36c3.984 1.44 8.784 5.856 10.896 9.552h1.44z"
-              fill="#FFE7AA"
-            ></path>
-          </svg>
+          <img src="@/assets/arrow-1.svg" />
+          <img src="@/assets/arrow-2.svg" />
         </button>
       </div>
     </div>
   </section>
 </template>
 <script>
+/* eslint-disable */
 import Navbar from "@/components/Navbar.vue";
 
 export default {
